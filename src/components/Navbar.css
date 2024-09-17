@@ -1,0 +1,86 @@
+.navbar {
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2rem;
+  position: sticky;
+  top: 0px;
+  z-index: 999;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+video {
+  object-fit: cover;
+  width: 100%;
+  height: 12% !important;
+  position: fixed;
+  z-index: -1;
+}
+
+.navbar-container {
+  display: flex;
+  align-items: center;
+}
+
+.menu-icon {
+  display: block;
+  position: absolute;
+  top: 0;
+  right: 0;
+  transform: translate(-100%, 60%);
+  font-size: 1.8rem;
+  cursor: pointer;
+}
+
+.fa-door-open, .fa-door-closed {
+  color: #fff;
+  opacity: 0.6;
+  text-align: center;
+}
+
+.nav-menu {
+  display: flex;
+  flex-direction: column;
+  height: 90vh;
+  position: absolute;
+  top: 80px;
+  left: -100%;
+  opacity: 1;
+  transition: all 3s ease;
+  grid-template-columns: repeat(4, auto);
+  grid-gap: 5px;
+  width: 29vw;
+  margin-right: 2rem;
+}
+
+.nav-menu.active {
+  background: #80b1b9;
+  left: 0;
+  transition: all 1s ease;
+  z-index: 1;
+  opacity: 0.8;
+  display: flex;
+  flex-direction: column;
+}
+
+.nav-links {
+  color: #fff;
+  align-items: center;
+  text-decoration: none;
+  padding: 2rem;
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  display: table;
+}
+
+.nav-links:hover {
+  background-color: #7293A8;
+  color: #fff;
+  transition: all 0.3s ease-out;
+}
+
+.nav-item {
+  height: 11%;
+}
