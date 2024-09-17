@@ -5,8 +5,7 @@
 ## from one completionist to another
 
 to track each and every aspect of the game as you play along
-
-as this goes beyond the scope of nintendo's 100% tracking, here is a list of what I deem important:
+here is a list of what I deem important:
 
 • Armor Sets \
 • Bargainer Statues \
