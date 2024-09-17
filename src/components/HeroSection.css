@@ -1,12 +1,4 @@
-.hero-video {
-  object-fit: cover;
-  width: 100%;
-  height: 100% !important;
-  position: fixed;
-  z-index: -1;
-}
-
-.hero-container {
+/* .hero-container {
   height: 100vh;
   width: 100%;
   display: flex;
@@ -14,13 +6,25 @@
   justify-content: center;
   align-items: center;
   object-fit: contain;
+} */
+
+.hero-container {
+  background-image: url('./media/background.png');
+  background-attachment: fixed;
+  background-position: top left;
+  background-repeat: repeat;
+  background-size: auto;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
 }
 
-.hero-container > h1 {
-  color: #fff;
-  font-size: 100px;
-  margin-top: -100px;
-  font-family: Georgia, 'Times New Roman', Times, serif ;
+h1 {
+  font-size: 7rem;
+  text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.7);
 }
 
 .hero-container > p {
