@@ -53,9 +53,9 @@ here is a list of what I deem important:
 
 ### `npm start`
 
-• runs the app in the dev mode [http://localhost:3000] \
+• runs the app in the dev mode [http://localhost:3000]
 
-3. to test
+3. test
 
 ### `npm test`
 
