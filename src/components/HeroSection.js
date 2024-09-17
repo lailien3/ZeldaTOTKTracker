@@ -1,7 +1,6 @@
 import React from 'react';
 import '../App.css';
 import './HeroSection.css';
-import background from './media/background.png';
 
 function HeroSection() {
   return (
