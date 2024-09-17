@@ -41,7 +41,7 @@ here is a list of what I deem important:
 • Surface Shrines { + chests } \
 • Towns & Settlements \
 • Wells \
-• Zonai Dispensers \
+• Zonai Dispensers 
 
 # •-*-•-*-•-*-•-*-•-*-•-*-•-*-•-*-•-*-•-*-•-*-•-*-•
 
