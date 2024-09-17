@@ -1,38 +1,91 @@
-.App {
-  text-align: center;
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Georgia, 'Times New Roman', Times, serif ;
+  background-color: rgb(43, 78, 70);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.armor-sets,
+.bargainer-statues,
+.bosses,
+.bridles-saddles,
+.caves-bubblefrog,
+.characters,
+.chasms,
+.energy-wells,
+.enhancements,
+.great-fairy-fountains,
+.health,
+.hudsons-signs,
+.hyrule-compendium,
+.korok-seeds,
+.lightroot-depths-map,
+.main-quests,
+.skyview-towers-map,
+.memories-dragon-tears,
+.monster-medals,
+.named-locations,
+.old-maps,
+.purah-pad,
+.recipes,
+.sages-wills,
+.schematics,
+.shrine-quests,
+.side-adventures,
+.side-quests,
+.sky-shrines-chests,
+.stables,
+.stamina,
+.surface-shrines-chests,
+.towns-settlements,
+.wells,
+.zonai-dispensers {
+  font-size: 4rem;
+  text-shadow: 5px 5px 10px rgb(75, 255, 180);
+  color: rgb(171, 212, 204);
+  background-color: rgba(255, 255, 255, 0);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: green;
-  min-height: 100vh;
+.page-container {
+  background-image: url('./components/media/background.png');
+  background-attachment: fixed;
+  background-position: top left;
+  background-repeat: repeat;
+  background-size: auto;
+  height: 100vh;
+  width: 100vw;
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
 }
 
-.App-link {
-  color: rgb(159, 197, 159);
+/* Scrollbar */
+::-webkit-scrollbar {
+  width: 40px;
+  background-image: url('./components/media/background.png');
+  background-attachment: fixed;
+  background-position: top left;
+  background-repeat: repeat;
+  background-size: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+::-webkit-scrollbar-track {
+  background-color: rgba(255, 255, 255, 0);
+}
+
+::-webkit-scrollbar-thumb {
+  background-image: url('./components/media/scrollBar.png');
+  background-size: 35px;
+  background-position: center;
+  background-repeat: no-repeat;
+  border: none;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-size: 38px;
 }
