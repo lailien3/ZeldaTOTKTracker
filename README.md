@@ -1,5 +1,50 @@
 # •-*-•-*-•-*-•-*-•-*-•-*-•-*-•-*-•-*-•-*-•-*-•-*-•
 # Zelda Tears of the Kingdom Progress Tracker
+# •-*-•-*-•-*-•-*-•-*-•-*-•-*-•-*-•-*-•-*-•-*-•-*-•
+
+## from one completionist to another
+
+to track each and every aspect of the game as you play along
+
+as this goes beyond the scope of nintendo's 100% tracking, here is a list of what I deem important:
+
+Armor Sets
+Bargainer Statues
+Bosses
+Bridles & Saddles
+Caves { + bubblefrog }
+Characters
+Chasms
+Energy Wells
+Enhancements (armor sets)
+Great Fairy Fountains
+Health
+Hudson's Signs
+Hyrule Compendium
+Korok seeds
+Lightroot (depths map)
+Main Quests
+Map / Skyview towers
+Memories (Dragon Tears)
+Monster Medals
+Named Locations
+Old Maps
+Purah Pad
+Recipes
+Sage's Will
+Schematics
+Shrine Quests
+Side Adventures
+Side Quests
+Sky Shrines { + chests }
+Stables
+Stamina
+Surface Shrines  { + chests }
+Towns & Settlements
+Wells
+Zonai Dispensers
+
+# •-*-•-*-•-*-•-*-•-*-•-*-•-*-•-*-•-*-•-*-•-*-•-*-•
 
 ## running locally
 
@@ -11,10 +56,8 @@
 
 • runs the app in the dev mode [http://localhost:3000] \
 
-## to test :
+3. to test
 
 ### `npm test`
-
-Launches the test runner in the interactive watch mode \
 
 # •-*-•-*-•-*-•-*-•-*-•-*-•-*-•-*-•-*-•-*-•-*-•-*-•
