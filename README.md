@@ -4,7 +4,7 @@
 
 ## from one completionist to another
 
-to track each and every aspect of the game as you play along
+to track each and every aspect of the game as you play along \
 here is a list of what I deem important:
 
 • Armor Sets \
